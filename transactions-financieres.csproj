@@ -7,5 +7,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<!-- Le projet de tests est un projet à part : on l'exclut du projet principal -->
+		<Compile Remove="transactions_financieres.Tests\**" />
+		<None Remove="transactions_financieres.Tests\**" />
+		<EmbeddedResource Remove="transactions_financieres.Tests\**" />
+	</ItemGroup>
 </Project>

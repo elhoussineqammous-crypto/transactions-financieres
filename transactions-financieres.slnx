@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../transactions_financieres.Tests/transactions_financieres.Tests.csproj" />
   <Project Path="transactions-financieres.csproj" />
+  <Project Path="transactions_financieres.Tests/transactions_financieres.Tests.csproj" />
 </Solution>
